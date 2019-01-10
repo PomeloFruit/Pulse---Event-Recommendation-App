@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="lightblue">#6FCACA</color>
+    <color name ="darkblue">#22254B</color>
+    <color name="darkpurple">#2E143A</color>
+    <color name="purple">#57164C</color>
+    <color name="lightpurple">#A41F60</color>
+    <color name="orange">#CC5D56</color>
+    <color name="yellow">#FBB040</color>
+    <color name="discord">#7289DA</color>
+    <color name="blackpink">#17081D</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name = "lightgrey">#DDDDDD</color>
+    <color name= "grey">#989898</color>
+
+    <color name = "translucent">#29000000</color>
+</resources>

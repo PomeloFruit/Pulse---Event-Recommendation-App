@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings.Settings"
+    android:id="@+id/rLayout"
+    >
+
+    <FrameLayout
+        android:id="@+id/settingsfragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/translucent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_foryou_white_24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/pulsecode"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="Pulse Code"
+                        android:textSize="24dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/roboto_medium"
+                        android:paddingVertical="55dp"
+                        android:textAlignment="center"
+                        android:backgroundTint="@color/yellow"
+                        android:textAllCaps="false"
+                        android:onClick="onClick"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/orange">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/personalize"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="Personalize"
+                        android:textSize="24dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/roboto_medium"
+                        android:paddingVertical="55dp"
+                        android:textAlignment="center"
+                        android:backgroundTint="@color/orange"
+                        android:textAllCaps="false"
+                        android:onClick="onClick"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightpurple">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/payment"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="Payment Info"
+                        android:textSize="24dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/roboto_medium"
+                        android:paddingVertical="55dp"
+                        android:textAlignment="center"
+                        android:backgroundTint="@color/lightpurple"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/chatbot"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="Chatbot"
+                        android:textSize="24dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/roboto_medium"
+                        android:paddingVertical="55dp"
+                        android:textAlignment="center"
+                        android:backgroundTint="@color/purple"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/darkpurple">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/faq"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="FAQ"
+                        android:textSize="24dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/roboto_medium"
+                        android:paddingVertical="55dp"
+                        android:textAlignment="center"
+                        android:backgroundTint="@color/darkpurple"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/darkblue">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/signout"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="Sign Out"
+                        android:textSize="24dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/roboto_medium"
+                        android:paddingVertical="55dp"
+                        android:textAlignment="center"
+                        android:backgroundTint="@color/darkblue"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

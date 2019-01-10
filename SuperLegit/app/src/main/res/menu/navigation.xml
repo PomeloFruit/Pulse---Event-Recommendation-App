@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/foryou"
+        android:icon="@drawable/ic_foryou_white_24dp"
+        android:title="For You"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/discovery"
+        android:icon="@drawable/ic_discovery_white_24dp"
+        android:title="Discover"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/mypulse"
+        android:icon="@drawable/mypulse_white"
+        android:title="My Pulse"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/network"
+        android:icon="@drawable/ic_friends_white_24dp"
+        android:title="Friends"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+
+</menu>
